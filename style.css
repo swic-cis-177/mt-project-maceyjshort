@@ -1,0 +1,11 @@
+fieldset {
+  border: ridge #708090;
+  border-radius: 2em;
+  padding-bottom: 10 px;
+  padding-right: 10 px;
+  width: auto;
+}
+
+legend {
+  color: #708090;
+}
