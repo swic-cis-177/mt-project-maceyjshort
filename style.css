@@ -19,3 +19,19 @@ button:hover {
   color: white;
   font-weight: light;
 }
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  min-width: 900px;
+  width: 3%;
+}
+
+#center {
+  text-align: center;
+}
+
+#textFields {
+  text-align: center;
+}
