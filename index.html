@@ -14,17 +14,22 @@
     <title>Document</title>
   </head>
   <body>
+    <div id="wrapper">
     <!-- 'Connect' JS to this HTML file. -->
     <script src="./scripts.js"></script>
+    <div id= "center">
+    <h1>Macey's Homework Task List</h1></div>
     <form>
+      <div id="textFields">
       <p><label for= "class">Class: </label></p>
       <p><input type= "text" id="class" name="class"></p>
       <p><label for= "dueDate">Due Date: </label></p>
       <p><input type ="text" id="dueDate" name ="dueDate"></p>
-      <p><label for= "goalDueDate">Goal Due Date</label></p>
+      <p><label for= "goalDueDate">Goal Due Date:</label></p>
       <p><input type= "text" id="goalDueDate" name="goalDueDate"></p>
       <p><label for="task">Task: </label></p>
       <p><input type = "text" id="task" name ="task"></p>
+      </div>
       <fieldset>
         <legend>Priority Level</legend>
         <p><input type ="checkbox" name="daily" id ="daily" value="yes">Please remind me daily</p>
@@ -32,8 +37,13 @@
         <p><input type= "checkbox" name="weekly" id="weekly" value= "yes">Please remind me weekly</p>
         <p><input type="checkbox" name="once" id="once" value="yes">I only needed to be reminded that day</p>
       </fieldset>
+      <div id= "center">
+        <p><label for="msg">Additional Notes:</label></p>
+        <p><textarea id= "msg" name= "user_message">Optional</textarea></p>
       <button type= "submit">Submit Task</button>
       <button type="reset">Reset form</button>
+    </div>
     </form>
+    </div>
   </body>
 </html>
