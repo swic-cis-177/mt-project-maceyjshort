@@ -1,7 +1,9 @@
-//todo: Grab the "button" from html
-const button = document.querySelector("button");
-console.log(button);
+const form = document.querySelector("form");
 
-//TODO: Listen for a "click" on the 'button'
+form.addEventListener("submit", function () {
+  event.preventDefault();
 
-//TODO: When there is a click, change "No information sent" to "Information sent"
+  console.log(event);
+});
+
+//Can't figure this out, I have a document.write() violation
