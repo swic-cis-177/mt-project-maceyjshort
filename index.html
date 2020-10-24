@@ -4,36 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>School Task</title>
   </head>
   <body>
     <h1>Macey's Homework Task List</h1>
     <form>
       <div id="textFields">
-      <p><label for= "class">Class: </label>
-      <input type= "text" id="class" name="class">
-      <label for= "dueDate">Due Date: </label>
-      <input type ="text" id="dueDate" name ="dueDate"></p>
-      <p><label for= "goalDueDate">Goal Due Date:</label>
-      <input type= "text" id="goalDueDate" name="goalDueDate">
-      <label for="task">Task: </label>
-      <input type = "text" id="task" name ="task"></p>
+        <p>
+          <label for="class">Class: </label>
+          <input type="text" id="class" name="class" />
+          <label for="dueDate">Due Date: </label>
+          <input type="text" id="dueDate" name="dueDate" />
+        </p>
+        <p>
+          <label for="goalDueDate">Goal Due Date:</label>
+          <input type="text" id="goalDueDate" name="goalDueDate" />
+          <label for="task">Task: </label>
+          <input type="text" id="task" name="task" />
+        </p>
       </div>
       <fieldset>
         <legend>Priority Level</legend>
-        <p><input type ="checkbox" name="daily" id ="daily" value="yes">Please remind me daily</p>
-        <p><input type= "checkbox" name="hourly" id= "hourly" value ="yes">Please remind me daily</p>
-        <p><input type= "checkbox" name="weekly" id="weekly" value= "yes">Please remind me weekly</p>
-        <p><input type="checkbox" name="once" id="once" value="yes">I only needed to be reminded that day</p>
+        <p>
+          <input type="checkbox" name="daily" id="daily" value="yes" />Please
+          remind me daily
+        </p>
+        <p>
+          <input type="checkbox" name="hourly" id="hourly" value="yes" />Please
+          remind me daily
+        </p>
+        <p>
+          <input type="checkbox" name="weekly" id="weekly" value="yes" />Please
+          remind me weekly
+        </p>
+        <p>
+          <input type="checkbox" name="once" id="once" value="yes" />I only
+          needed to be reminded that day
+        </p>
       </fieldset>
 
-        <p><label for="msg">Additional Notes:</label></p>
-        <p><textarea id= "msg" name= "user_message">Optional</textarea></p>
+      <p><label for="msg">Additional Notes:</label></p>
+      <p><textarea id="msg" name="user_message">Optional</textarea></p>
       <button>Submit Task</button>
-      <h4>No Information sent yet.</h4>
-
     </form>
     <script scr="./scripts.js"></script>
   </body>
