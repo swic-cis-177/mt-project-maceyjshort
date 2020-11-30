@@ -1,8 +1,7 @@
-const form = document.querySelector("form");
+import { createTask } from "./lib.js";
 
-form.addEventListener("submit", function () {
+document.querySelector("form").addEventListener("submit", (event) => {
   event.preventDefault();
 
-  // TODO{macey.short}: Collect the form submission into an Object and log it
-  console.log(event);
+  console.log(createTask(event.target.elements));
 });
