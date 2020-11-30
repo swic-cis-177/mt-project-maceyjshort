@@ -6,5 +6,3 @@ form.addEventListener("submit", function () {
   // TODO{macey.short}: Collect the form submission into an Object and log it
   console.log(event);
 });
-
-//Can't figure this out, I have a document.write() violation
