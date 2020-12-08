@@ -13,5 +13,12 @@ export const createTask = (elements) =>
         [id]: value,
       }),
       // Initialize 'formInfo' as an empty object
+      /* const newTaskRow = template.content.cloneNode(true);
+      const newTaskTDs = newTaskRow.querySelectorAll("td");
+
+      newTaskTDs[0].arrayContent = id.class;
+      newTaskTDs[1].arrayContent = id.dueDate;
+      newTaskTDs[2].arrayContent = id.goalDueDate;
+      newTaskTDs[3].arrayContent = id.task;*/
       {}
     );
