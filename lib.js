@@ -6,6 +6,7 @@
 export const createTask = (form) =>
   // https://dev.to/codefinity/handling-form-submissions-ii-35d5
   Object.fromEntries(new FormData(form));
+console.log(createTask);
 
 export const renderTask = (task) => {
   // TODO{macey.short}: Use some of this code and the HTML templates to render the task.
